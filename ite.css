@@ -8,8 +8,12 @@
   outline: none;
   position: relative;
   cursor: text;
-  padding: 6px 0px;
+  padding: 6px;
   min-width: 150px;
+  color: rgb(91, 91, 96);
+  background-color: white;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 4px;
 }
 
 [inline-text-editor][contentEditable]:empty:before {
